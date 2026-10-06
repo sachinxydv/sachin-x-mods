@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SACHIN X MODS - digital products and support store">
+  <title>SACHIN X MODS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">♛</span><span>SACHIN <b>X</b> MODS<small>YOUR TRUSTED DIGITAL STORE</small></span></a>
+  <nav>
+    <a class="active" href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#order">Order Now</a>
+    <a href="#status">Order Status</a>
+    <a href="#support">Support</a>
+  </nav>
+  <a class="telegram" href="#support">✈ Telegram</a>
+  <button class="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">WELCOME TO</p>
+    <h1>SACHIN <span>X</span> MODS</h1>
+    <p class="lead">A clean, fast and easy digital ordering experience.</p>
+    <div class="hero-badges">
+      <span>🛡️ Secure Orders</span><span>⚡ Fast Service</span><span>💳 Easy Payment</span><span>🎧 Support</span>
+    </div>
+    <a class="btn primary" href="#products">Explore Products →</a>
+  </div>
+  <div class="hero-art">
+    <div class="orb orb1"></div><div class="orb orb2"></div>
+    <div class="character">SXM</div>
+    <div class="join-card"><div class="crown">♛</div><h3>Join Our Telegram</h3><p>Updates, offers and support.</p><a class="btn blue" href="#support">Join Now →</a></div>
+  </div>
+</section>
+
+<section class="trust-row">
+  <div>🛒 <b>Easy Ordering</b><small>Simple product flow</small></div>
+  <div>🔐 <b>Secure Payment</b><small>Clear payment steps</small></div>
+  <div>⚡ <b>Fast Service</b><small>Quick order handling</small></div>
+  <div>🎧 <b>Support</b><small>Help when needed</small></div>
+</section>
+
+<section id="products" class="section">
+  <div class="section-head"><div><p class="eyebrow">OUR PRODUCTS</p><h2>Featured Products</h2><p>Choose a product and plan.</p></div><a href="#products">View All →</a></div>
+  <div class="products">
+    <article class="product pink">
+      <div class="product-art art-troll">TROLL<br>MODZ</div>
+      <div class="product-info"><h3>TROLL MODZ <small>[MAIN ID SAFE]</small></h3>
+        <ul><li>1 Hour — ₹20</li><li>3 Hours — ₹50</li><li>6 Hours — ₹70</li><li>12 Hours — ₹85</li><li>3 Days — ₹180</li><li>7 Days — ₹380</li></ul>
+        <a class="btn primary" href="#order" data-product="TROLL MODZ">Order Now</a>
+      </div>
+    </article>
+    <article class="product blue-card">
+      <div class="product-art art-prime">PRIME<br>HOOK</div>
+      <div class="product-info"><h3>PRIME HOOK APK MOD <small>(NONROOT)</small></h3>
+        <ul><li>1 Day — ₹70</li><li>3 Days — ₹140</li><li>7 Days — ₹280</li></ul>
+        <a class="btn blue" href="#order" data-product="PRIME HOOK APK MOD">Order Now</a>
+      </div>
+    </article>
+    <article class="product green">
+      <div class="product-art art-bala">BALA<br>MOD XYZ</div>
+      <div class="product-info"><h3>BALA MOD XYZ</h3>
+        <ul><li>1 Hour — ₹25</li><li>3 Hours — ₹60</li><li>6 Hours — ₹95</li><li>12 Hours — ₹145</li><li>1 Day — ₹290</li></ul>
+        <a class="btn green-btn" href="#order" data-product="BALA MOD XYZ">Order Now</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="why section">
+  <div><p class="eyebrow">WHY CHOOSE US?</p><h2>Simple. Fast. Organized.</h2></div>
+  <div class="why-grid">
+    <div>🛡️<b>Secure Orders</b><small>Clear order details</small></div>
+    <div>⚡<b>Fast Handling</b><small>Quick processing</small></div>
+    <div>🎧<b>Support</b><small>Contact when needed</small></div>
+    <div>🏷️<b>Clear Pricing</b><small>No hidden plan labels</small></div>
+  </div>
+</section>
+
+<section id="order" class="section order-section">
+  <div class="section-head"><div><p class="eyebrow">ORDER</p><h2>Place Your Order</h2><p>Select a product and submit your details.</p></div></div>
+  <div class="order-grid">
+    <form id="orderForm" class="panel">
+      <label>Product<select id="product"><option>TROLL MODZ</option><option>PRIME HOOK APK MOD</option><option>BALA MOD XYZ</option></select></label>
+      <label>Plan<select id="plan"><option>1 Hour</option><option>3 Hours</option><option>6 Hours</option><option>12 Hours</option><option>1 Day</option><option>3 Days</option><option>7 Days</option></select></label>
+      <label>Telegram Username<input id="username" placeholder="@username"></label>
+      <button class="btn primary" type="submit">Create Order →</button>
+      <p class="form-note">Demo mode: this page does not process real payments.</p>
+    </form>
+    <div class="panel summary"><h3>Order Summary</h3><div id="summaryProduct">TROLL MODZ</div><div class="summary-row"><span>Plan</span><b id="summaryPlan">1 Hour</b></div><div class="summary-row"><span>Amount</span><b id="summaryPrice">₹20</b></div><div class="notice">After placing an order, follow the payment instructions supplied by the store/admin.</div></div>
+  </div>
+</section>
+
+<section id="status" class="section">
+  <div class="section-head"><div><p class="eyebrow">TRACKING</p><h2>Order Status</h2><p>Enter your order ID to view the current status.</p></div></div>
+  <div class="status-box panel"><input id="statusId" placeholder="Example: SXM-123456"><button class="btn blue" id="statusBtn">Check Status</button><div id="statusResult" class="status-result"></div></div>
+</section>
+
+<section id="support" class="section support">
+  <div class="section-head"><div><p class="eyebrow">NEED HELP?</p><h2>Support</h2><p>Reach the support team for order questions.</p></div></div>
+  <div class="support-grid">
+    <a class="support-card" href="#"><span>✈</span><b>Telegram</b><small>@sachin...</small><em>Chat Now →</em></a>
+    <a class="support-card" href="#"><span>💬</span><b>WhatsApp</b><small>Support chat</small><em>Chat Now →</em></a>
+    <a class="support-card" href="mailto:support@example.com"><span>✉</span><b>Email</b><small>Support email</small><em>Send Email →</em></a>
+    <div class="support-card"><span>?</span><b>FAQ</b><small>Common questions</small><em>View FAQ →</em></div>
+  </div>
+</section>
+</main>
+
+<footer><div class="brand">♛ SACHIN <b>X</b> MODS</div><div>Home · Products · Order · Status · Support</div><div>© 2026 SACHIN X MODS</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
